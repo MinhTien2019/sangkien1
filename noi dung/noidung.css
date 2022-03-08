@@ -1,0 +1,71 @@
+*{
+    color: blue;
+    margin: 0.3rem;
+    font-family: 'Times New Roman',serif;
+}
+.container h1{
+    text-align: center;
+    color: green;
+    padding-bottom: 0.5rem;
+}
+.content p{
+    text-align: justify;
+    margin: 0.5rem;
+    font-size: 1.6rem;
+}
+@media screen and (min-width:1024px){
+    .container{
+        max-width: 1280px;
+        margin: 0 auto;
+    }
+}
+
+/* tác giả */
+.content table{
+   
+    margin: auto;
+}
+.content table{
+    border:1px solid black;
+}
+
+.content td{
+    border:1px solid black;
+}
+.content img{
+    display: block;
+    padding-top: 0.4rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+/* Thủ tục nhận máy */
+.content1 img{
+    display: block;
+    padding-top: 0.1rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+.content1 p{
+    text-align: justify;
+    margin: 0.5rem;
+    font-size: 1.6rem;
+}
+.content1 .img-left{
+    display: block;
+    float: left;
+    padding-left: 8%;
+}
+.content1 .img-right{
+    display: inline-block;
+    padding-bottom: 2%;
+   
+}
+.content1 .img-p{
+    text-align: center; font-style: oblique;
+     font-size: 1.2rem;
+     color: rgb(109, 71, 71);
+}
+
+
